@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#navbar {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(12, 60, 96);
+}
+
+nav>ul>li {
+    color: white;
+    font-size: 18px;
+    float: right;
+    list-style-type: none;
+    margin: 20px;
+    margin-right: 50px;
+    margin-top: 25px;
+    
+}
+
+h1{
+    color: white;
+    padding: 20px;
+    font-family: 'Rethink Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 25px;
+}
+
