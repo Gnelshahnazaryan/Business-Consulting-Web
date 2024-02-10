@@ -1,53 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
-     <link
-      href="https://fonts.googleapis.com/css?family=EB+Garamond:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Rethink+Sans:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <nav id="navbar">
-      <ul>
-        <li><a href=""></a>Log In</li>
-        <li><a href=""></a>Plans & Pricing</li>
-        <li><a href="Services/services.html"></a>Services</li>
-        <li><a href="Projects/projects.html"></a>Projects</li>
-        <li><a href="About/about.html"></a>About</li>
-      </ul>
-      <h1 id="n-h1">James Consulting</h1>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=EB+Garamond:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Rethink+Sans:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
 
-    <div id="container">
-      <div>
-        <p>Developing Innovative Strategies</p>
+<body>
+  <nav id="navbar">
+    <ul data-aos="fade-up">
+      <li>Log In</li>
+      <li>Contact</li>
+      <li><a href="">Plans & Pricing</a< /li>
+      <li><a href="Services/services.html">Services</a></li>
+      <li><a href="Projects/projects.html">Projects</a></li>
+      <li><a href="About/about.html">About</a></li>
+    </ul>
 
-        <h1>ACHIEVING GROWTH</h1>
-        <a href="About/about.html">
-          <button id="button">Book A Consultation</button>
-        </a>
-      </div>
+
+    <h1 id="n-h1">James Consulting</h1>
+  </nav>
+
+  <div id="container" data-aos="fade-up">
+    <div>
+      <p>Developing Innovative Strategies</p>
+
+      <h1>ACHIEVING GROWTH</h1>
+      <a href="About/about.html">
+        <button id="button">Book A Consultation</button>
+      </a>
     </div>
+  </div>
 
-    <main id="info">
-      <article id="info-services">
-       <i> <h1>SERVICES</h1></i>
+  <main id="main">
+    <div id="info" data-aos="fade-right">
+      <section id="info-services">
+        <i>
+          <h1>SERVICES</h1>
+        </i>
         <br>
         <p>
           At James Consulting we offer a range of dynamic business consulting
@@ -63,10 +70,12 @@
         <a href="Services/services.html">
           <button id="inf-btn">More Info</button>
         </a>
-      </article>
+      </section>
 
-      <article id="info-projects">
-        <i><h1>PROJECTS</h1></i>
+      <section id="info-projects">
+        <i>
+          <h1>PROJECTS</h1>
+        </i>
         <br>
         <p>
           Embark on success-driven projects with James Consulting Our
@@ -83,10 +92,12 @@
         <a href="Projects/projects.html">
           <button id="inf-btn">More Info</button>
         </a>
-      </article>
+      </section>
 
-      <article id="info-clients">
-        <i><h1>CLIENTS</h1></i>
+      <section id="info-clients">
+        <i>
+          <h1>CLIENTS</h1>
+        </i>
         <br>
         <p>
           At James Consulting, our success is mirrored in the success of our
@@ -94,7 +105,7 @@
           businesses of all sizes and industries. From startups seeking guidance
           to established enterprises aiming for strategic breakthroughs, our
           client roster reflects the diversity of those we've had the privilege
-          to work with.  Join the ranks of satisfied clients who have experienced the
+          to work with. Join the ranks of satisfied clients who have experienced the
           transformative impact of our business consulting services.
         </p>
         <br>
@@ -102,7 +113,86 @@
         <a href="About/about.html">
           <button id="inf-btn">More Info</button>
         </a>
-      </article>
-    </main>
-  </body>
+      </section>
+    </div>
+
+    <section id="about-us" data-aos="fade-left">
+      <h1>About Us</h1>
+
+      <p>Welcome to James Consulting, where expertise meets innovation in the world of business
+        consulting. With a
+        relentless commitment to guiding businesses towards success, we take pride in being your strategic partner on
+        the journey to growth and excellence.
+        At James Consulting we understand the complexities of today's business landscape. Our seasoned team of
+        consultants brings a wealth of experience from diverse industries, enabling us to offer comprehensive solutions
+        tailored to your unique challenges. From startups to established enterprises, we specialize in providing
+        strategic insights, operational enhancements, and innovative approaches that drive sustainable results.</p>
+
+      <p>What sets us apart is our client-centric approach. We believe in fostering strong,
+        collaborative relationships
+        with our clients, working hand-in-hand to navigate the intricacies of their business. Whether you're seeking to
+        optimize operations, explore new markets, or adapt to evolving industry trends, we are dedicated to delivering
+        personalized consulting services that empower your organization to thrive.
+
+        Our mission is to be the catalyst for your success, offering not just solutions but a transformative experience.
+        Through a combination of industry knowledge, cutting-edge strategies, and a passion for driving positive change,
+        we are here to elevate your business to new heights.</p>
+
+      <a href="About/about.html">
+        <button id="about-btn">Learn More</button>
+      </a>
+    </section>
+
+    <section class="testimonial">
+      <div class="testimonial-container" data-aos="zoom-in-up">
+        <div class="testimonial-card" onclick="flipTestimonial(this)">
+          <div class="testimonial-face">
+            <p>Our company was at a crossroads, unsure about our next steps. The business consulting expertise provided
+              by James Consulting was invaluable. Their insights and strategic guidance reshaped our business model,
+              leading to increased efficiency and profitability.</p>
+            <p><b>John T., CEO, Tech Innovators Inc.</b></p>
+            <p>Click To Next Testimonial</p>
+          </div>
+          <div class="testimonial-face testimonial-back">
+            <p>James Consulting played a pivotal role in transforming our financial strategies. Their team’s analytical
+              approach and industry knowledge helped us identify cost-saving opportunities and streamline our financial
+              processes. Thanks!</p>
+            <p><b>Sarah M., CFO, Global Logistics Solutions</b></p>
+            <p>Click To Next Testimonial</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-container" data-aos="zoom-in-up">
+        <div class="testimonial-card" onclick="flipTestimonial(this)">
+          <div class="testimonial-face">
+            <p>In the highly competitive world of startups, having the right marketing strategy is crucial. James
+              Consulting not only understood our unique challenges but also crafted a customized marketing plan that
+              exceeded our expectations. </p>
+            <p><b>Alex P., Marketing Director, Stellar Startups Inc.</b></p>
+            <p>Click To Next Testimonial</p>
+
+          </div>
+          <div class="testimonial-face testimonial-back">
+            <p>James Consulting’s HR solutions are unparalleled. They provided comprehensive support in restructuring our
+              HR policies, improving employee engagement, and implementing effective talent acquisition strategies.
+            </p>
+            <p><b>Emily R., HR Manager, Corporate Dynamics Ltd.</b></p>
+            <p>Click To Next Testimonial</p>
+
+          </div>
+        </div>
+      </div>
+  </section>
+
+ 
+
+
+</main>
+
+ 
+  <script src="main.js"></script>
+</body>
+
 </html>
