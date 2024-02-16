@@ -21,29 +21,29 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</head>
 
+</head>
 <body>
-  <nav id="navbar">
-    <ul data-aos="fade-up">
-      <li>Log In</li>
-      <li>Contact</li>
-      <li><a href="">Plans & Pricing</a< /li>
-      <li><a href="Services/services.html">Services</a></li>
-      <li><a href="Projects/projects.html">Projects</a></li>
-      <li><a href="About/about.html">About</a></li>
+  <nav id="navbar" >
+    <ul >
+      <li onclick="scrollDown()"><a href="">Log In</a></li>
+      <li onclick="scrollDown()"><a href="">Contact</a></li>
+      <li><a href="">Plans & Pricing</a></li>
+      <li><a href="../Services/services.html">Services</a></li>
+      <li><a href="../Projects/projects.html">Projects</a></li>
+      <li><a href="../About/about.html">About</a></li>
     </ul>
 
 
     <h1 id="n-h1">James Consulting</h1>
   </nav>
 
-  <div id="container" data-aos="fade-up">
+  <div id="container" >
     <div>
       <p>Developing Innovative Strategies</p>
 
       <h1>ACHIEVING GROWTH</h1>
-      <a href="About/about.html">
+      <a href="../About/about.html">
         <button id="button">Book A Consultation</button>
       </a>
     </div>
@@ -67,7 +67,7 @@
         </p>
         <br>
         <br>
-        <a href="Services/services.html">
+        <a href="../Services/services.html">
           <button id="inf-btn">More Info</button>
         </a>
       </section>
@@ -84,12 +84,12 @@
           and drive positive change. Explore our portfolio of successful
           collaborations, where we've partnered with businesses to overcome
           challenges and achieve their strategic goals. Join us in transforming
-          your vision into successful projects that set your business on a path
-          to excellence.
+          your vision into successful projects .
+      
         </p>
         <br>
         <br>
-        <a href="Projects/projects.html">
+        <a href="../Projects/projects.html">
           <button id="inf-btn">More Info</button>
         </a>
       </section>
@@ -106,17 +106,17 @@
           to established enterprises aiming for strategic breakthroughs, our
           client roster reflects the diversity of those we've had the privilege
           to work with. Join the ranks of satisfied clients who have experienced the
-          transformative impact of our business consulting services.
+          transformative impact of their business.
         </p>
         <br>
         <br>
-        <a href="About/about.html">
+        <a href="../About/about.html">
           <button id="inf-btn">More Info</button>
         </a>
       </section>
     </div>
 
-    <section id="about-us" data-aos="fade-left">
+    <section id="about-us">
       <h1>About Us</h1>
 
       <p>Welcome to James Consulting, where expertise meets innovation in the world of business
@@ -138,13 +138,13 @@
         Through a combination of industry knowledge, cutting-edge strategies, and a passion for driving positive change,
         we are here to elevate your business to new heights.</p>
 
-      <a href="About/about.html">
+      <a href="../About/about.html">
         <button id="about-btn">Learn More</button>
       </a>
     </section>
 
     <section class="testimonial">
-      <div class="testimonial-container" data-aos="zoom-in-up">
+      <div class="testimonial-container" data-aos="zoom-in-down">
         <div class="testimonial-card" onclick="flipTestimonial(this)">
           <div class="testimonial-face">
             <p>Our company was at a crossroads, unsure about our next steps. The business consulting expertise provided
@@ -164,7 +164,7 @@
         </div>
       </div>
 
-      <div class="testimonial-container" data-aos="zoom-in-up">
+      <div class="testimonial-container" data-aos="zoom-in-down">
         <div class="testimonial-card" onclick="flipTestimonial(this)">
           <div class="testimonial-face">
             <p>In the highly competitive world of startups, having the right marketing strategy is crucial. James
@@ -175,7 +175,8 @@
 
           </div>
           <div class="testimonial-face testimonial-back">
-            <p>James Consulting’s HR solutions are unparalleled. They provided comprehensive support in restructuring our
+            <p>James Consulting’s HR solutions are unparalleled. They provided comprehensive support in restructuring
+              our
               HR policies, improving employee engagement, and implementing effective talent acquisition strategies.
             </p>
             <p><b>Emily R., HR Manager, Corporate Dynamics Ltd.</b></p>
@@ -184,14 +185,59 @@
           </div>
         </div>
       </div>
-  </section>
+    </section>
 
- 
+    <section id="contact">
+      <h1>Log In & Contact Us</h1>
+      <form action="" id="inputs" autocomplete="off">
+        <input type="text" id="name" name="name" placeholder="Username">
+        <input type="text" id="surname" name="surname" placeholder="Last name">
+        <input type="email" id="email" name="email" placeholder="Email">
+        <input type="text" id="subject" name="subject" placeholder="Subject">
+        <input type="text" id="message" name="message" placeholder="Message*">
+        <input type="submit" id="submit">
+      </form>
 
 
-</main>
+    </section>
 
- 
+  </main>
+
+  <footer id="footer">
+    <div id="address">
+      <h2>James Consulting</h2>
+      <br>
+      <p>500 Terry Francine Street,
+        San Francisco, CA 94158</p>
+        <p>Mail: info@mysite.com</p>
+        <p>Tel: 123-456-7890</p>
+    </div>
+    <div id="menu">
+      <h3>MENU</h3>
+      <br>
+      <a href="../About/about.html">About</a>
+      <a href="../Projects/projects.html">Projects</a>
+      <a href="../Services/services.html">Services</a>
+      <a href="">Plans & Pricing</a>
+      <a>Contact</a>
+    </div>
+
+    <div id="socials">
+      <h3>SOCIALS</h3>
+      <br>
+      <a id="facebook" href="https://facebook.com">f</a>
+
+
+<a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white">
+    <path d="M23.95 4.77c-.88.37-1.83.62-2.83.73 1.01-.61 1.78-1.58 2.15-2.75-.94.55-1.98.95-3.1 1.17-.89-.95-2.16-1.54-3.56-1.54-2.69 0-4.86 2.17-4.86 4.86 0 .38.04.75.11 1.1-4.05-.2-7.65-2.14-10.05-5.08-.42.72-.66 1.57-.66 2.48 0 1.7.86 3.19 2.17 4.07-.8 0-1.54-.24-2.18-.64v.06c0 2.37 1.68 4.34 3.91 4.78-.41.1-.85.16-1.3.16-.32 0-.64-.03-.95-.08.64 1.99 2.5 3.44 4.7 3.48-1.72 1.34-3.88 2.14-6.24 2.14-.41 0-.81-.02-1.21-.07 2.22 1.43 4.86 2.27 7.69 2.27 9.23 0 14.27-7.64 14.27-14.26 0-.21 0-.42-.01-.63.97-.7 1.81-1.58 2.47-2.58z"/>
+  </svg>
+</a>
+
+    </div>
+  </footer>
+
+
   <script src="main.js"></script>
 </body>
 

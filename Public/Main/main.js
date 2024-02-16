@@ -8,4 +8,7 @@ function flipTestimonial(card) {
   card.classList.toggle('flipped');
 };
 
-
+function scrollDown() { 
+  window.scrollBy(0, 2705);
+  event.preventDefault();
+}
