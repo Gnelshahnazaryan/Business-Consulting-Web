@@ -20,14 +20,19 @@ $commonFontSize: 17px;
     height: 75px;
     background-color: $primary-color;
 
-    h1 {
-        color: $color2;
-        padding: 20px;
-        font-family: $Rethink;
-        margin-left: 25px;
-        font-weight: lighter;
-        font-size: 25px;
-    }
+    a{
+
+        text-decoration: none;
+
+        h1 {
+            color: $color2;
+            padding: 20px;
+            font-family: $Rethink;
+            margin-left: 25px;
+            font-weight: lighter;
+            font-size: 25px;
+        }
+}
 
     li {
         float: right;

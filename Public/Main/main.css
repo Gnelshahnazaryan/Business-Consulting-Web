@@ -10,7 +10,10 @@
   height: 75px;
   background-color: #0c3c60;
 }
-#navbar h1 {
+#navbar a {
+  text-decoration: none;
+}
+#navbar a h1 {
   color: white;
   padding: 20px;
   font-family: "Rethink Sans", sans-serif;
