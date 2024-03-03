@@ -1,0 +1,233 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#navbar {
+  width: 100%;
+  height: 75px;
+  background-color: #0c3c60;
+}
+#navbar a {
+  text-decoration: none;
+}
+#navbar a h1 {
+  color: white;
+  padding: 20px;
+  font-family: "Rethink Sans", sans-serif;
+  margin-left: 25px;
+  font-weight: lighter;
+  font-size: 25px;
+}
+#navbar li {
+  float: right;
+  list-style-type: none;
+  margin: 15px;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+#navbar li a {
+  color: white;
+  font-size: 20px;
+  float: right;
+  font-family: "EB Garamond", serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+#navbar li :hover {
+  color: rgb(29, 145, 233);
+  transition: 0.6s;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main h1 {
+  font-size: 60px;
+  color: #0c3c60;
+  margin-top: 100px;
+  font-family: "Lato", sans-serif;
+}
+.main p {
+  font-size: 16px;
+  color: #0c3c60;
+  margin: 15px;
+  font-family: "Nunito Sans" sans-serif;
+}
+.main .pricing {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.main .pricing div {
+  width: 500px;
+  height: 670px;
+  margin: 10px;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main .pricing div h2 {
+  color: #0c3c60;
+  margin: 50px 0px 20px 0px;
+}
+.main .pricing div h1 {
+  margin: 0px 0px;
+}
+.main .pricing div p {
+  font-size: 14px;
+  color: #0c3c60;
+}
+.main .pricing div button {
+  width: 255px;
+  height: 50px;
+  background-color: #0c3c60;
+  color: white;
+  border: none;
+  font-size: 18px;
+}
+.main .pricing div button:hover {
+  transition: 0.5s;
+  opacity: 0.6;
+}
+.main .pricing div #p {
+  margin: 30px 0px 0px;
+  color: black;
+  font-size: 16px;
+}
+
+#contact {
+  width: 100%;
+  height: 600px;
+  background-color: #0c3c60;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+}
+#contact h1 {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  word-spacing: 3px;
+}
+
+#inputs {
+  max-width: 100%;
+  height: 600px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#inputs input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  width: 445px;
+  height: 55px;
+  margin: 10px;
+}
+#inputs input::-moz-placeholder {
+  color: white;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  transform: translateY(-15px);
+}
+#inputs input::placeholder {
+  color: white;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  transform: translateY(-15px);
+}
+#inputs input:focus {
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 19px;
+  color: white;
+}
+#inputs input[type=submit] {
+  width: 190px;
+  height: 55px;
+  color: #072136;
+  font-size: 17px;
+  background: white;
+  border: none;
+  font-family: "Nunito Sans" sans-serif;
+  cursor: pointer;
+}
+#inputs input[type=submit]:hover {
+  background: none;
+  color: white;
+  border: 1px solid white;
+  transition: 1.5s;
+}
+
+#footer {
+  background-color: #072136;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+#footer div {
+  width: 210px;
+}
+#footer div h2 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-top: 50px;
+}
+#footer div h3 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  margin-top: 55px;
+}
+#footer div p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+  margin: 7px;
+}
+#footer div a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  margin: 7px;
+}
+#footer div a:hover {
+  color: rgb(29, 145, 233);
+  transition: 0.6s;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#facebook {
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  text-decoration: none;
+  cursor: pointer;
+}/*# sourceMappingURL=PandP.css.map */
