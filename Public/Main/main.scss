@@ -62,7 +62,7 @@ a{
 
 #container {
   width: 100%;
-  height: 580px;
+  height: 605px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -152,17 +152,19 @@ a{
   height: 700px;
   background-color: $color2;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
 
 
   section {
     width: 400px;
-    height: 350px;
+    height: 300px;
     background-color: $color2;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
     margin: 30px;
     font-size: $commonFontSize;
     letter-spacing: 2px;
@@ -171,12 +173,15 @@ a{
     h1 {
       margin-left: 80px;
       font-family: $OpenSans;
+      font-size: 35px;
+      color: $primary-color;
     }
 
     p {
       font-size: $commonFontSize;
       font-weight: bold;
       font-family: $OpenSans;
+      color: #0b2b46;
     }
 
     button {
@@ -294,7 +299,7 @@ a{
   font-family: $OpenSans;
   font-size: $commonFontSize;
   color: black;
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(177, 184, 201);
   border-radius: 15px 0px;
   padding: 10px;
 }
@@ -432,7 +437,7 @@ a{
     a {
       text-decoration: none;
       color: $color2;
-      font-family: $OpenSans;
+      font-family: $Lato;
       font-weight: bolder;
       margin: 7px;
     }
@@ -462,3 +467,4 @@ a{
   text-decoration: none;
   cursor: pointer;
 }
+
